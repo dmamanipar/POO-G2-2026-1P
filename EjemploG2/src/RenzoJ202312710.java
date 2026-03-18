@@ -7,7 +7,7 @@ public class RenzoJ202312710 {
         lista.add("roy");
         lista.add("ismael");
         for (String v:lista) {
-            syste
+            System.out.println(v);
         }
     }
 }
