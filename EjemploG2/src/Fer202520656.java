@@ -1,3 +1,5 @@
+import modelo.Persona;
+
 import javax.swing.*;
 import java.util.ArrayList;
 
@@ -5,12 +7,12 @@ public class Fer202520656 {
 
     public static void main(String[] args){
 
-        ArrayList<String> lista=new ArrayList<>();
-        lista.add("Fernando");
-        lista.add("Maryori");
-        lista.add("Asunta");
+        ArrayList<Persona> lista=new ArrayList<>();
+        lista.add(new Persona("74958840", "Fernando", "Apaza"));
+        lista.add(new Persona("60558566", "Maryori", "Apaza"));
+        lista.add(new Persona("10525661", "Asunta", "Apaza"));
 
-        for (String v:lista) {
+        for (Persona v:lista) {
             System.out.println(v);
         }
     }
