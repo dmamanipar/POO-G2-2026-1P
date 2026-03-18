@@ -8,8 +8,7 @@ public class romulo202514044 {
         Lista.add("Celia");
         Lista.add("Beatriz");
 
-
-        for (String v:lista) {
+        for (String v:Lista) {
             System.out.println(v);
         }
     }
