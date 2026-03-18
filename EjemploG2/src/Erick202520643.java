@@ -1,16 +1,17 @@
+import modelo.Persona;
+
 import java.util.ArrayList;
 
 public class Erick202520643 {
 
     public static void main(String[] arg) {
 
-        ArrayList<String> lista=new ArrayList<>();
-        lista.add("Erick");
-        lista.add("Lionel");
-        lista.add("Dayana");
-        lista.add("Natalie");
+        ArrayList<Persona> lista=new ArrayList<>();
+        lista.add(new Persona("43631917", "Erick", "Apaza"));
+        lista.add(new Persona("43631912", "Abel", "Condori"));
+        lista.add(new Persona("43631915", "Kevin", "Quispe"));
 
-        for (String v:lista){
+        for (Persona v:lista){
             System.out.println(v);
         }
 
