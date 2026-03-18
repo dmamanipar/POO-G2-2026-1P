@@ -1,18 +1,21 @@
+import modelo.Persona;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class RUBEN202514032 {
     public static void main(String[] arg){
 
-        ArrayList<String> lista=new ArrayList<>();
-        lista.add("lizbeth");
-        lista.add("David");
-        lista.add("Ruben");
+        ArrayList<Persona> lista=new ArrayList<>();
+        lista.add(new Persona("24057982","ruben","mamani"));
+        lista.add(new Persona("24057982","ruben","mamani"));
+        lista.add(new Persona("24057982","ruben","mamani"));
 
-        for (String v:lista) {
-            System.out.println(v);
+        for (Persona v:lista) {
+            System.out.println(v.dni+"");
 
         }
     }
 
 }
+-
