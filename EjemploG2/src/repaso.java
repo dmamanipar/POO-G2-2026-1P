@@ -10,7 +10,7 @@ public class repaso {
     float f=245545244.4f;
     double g=576575.5555;
     boolean h=true;
-
+    
     // Tipo de datos referenciales
     Persona p=new Persona("60313698","Braulio","Parra");
 
@@ -22,5 +22,6 @@ public class repaso {
         boolean suma;
         System.out.println(suma());
     }
+
 
 }
