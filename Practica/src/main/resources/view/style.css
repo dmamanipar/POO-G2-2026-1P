@@ -1,0 +1,179 @@
+/* ===== CONTENEDOR RAÍZ ===== */
+.root-container {
+    -fx-background-color: #eef2f7;
+}
+
+/* ===== HEADER ===== */
+.header {
+    -fx-background-color: #1a3c5e;
+}
+
+.icon-circle {
+    -fx-background-color: #ffffff33;
+    -fx-background-radius: 50%;
+    -fx-min-width: 52px;
+    -fx-min-height: 52px;
+    -fx-max-width: 52px;
+    -fx-max-height: 52px;
+}
+
+.icon-label {
+    -fx-text-fill: white;
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+}
+
+.header-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.header-subtitle {
+    -fx-text-fill: #b0c8e8;
+    -fx-font-size: 12px;
+}
+
+/* ===== TARJETAS ===== */
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: #dce6f0;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-padding: 16px;
+    -fx-effect: dropshadow(gaussian, #00000015, 6, 0, 0, 2);
+}
+
+/* ===== TÍTULOS DE SECCIÓN ===== */
+.section-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1a3c5e;
+    -fx-padding: 0 0 4px 0;
+}
+
+/* ===== CAMPOS ===== */
+.field-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #4a6080;
+    -fx-font-weight: bold;
+}
+
+.field-input {
+    -fx-background-color: #f5f8fc;
+    -fx-border-color: #c5d5e8;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 7px 10px;
+    -fx-font-size: 13px;
+}
+
+.field-input:focused {
+    -fx-border-color: #2a6496;
+    -fx-background-color: white;
+}
+
+/* ===== MENSAJE ===== */
+.msg-label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #c0392b;
+    -fx-font-style: italic;
+    -fx-min-height: 16px;
+}
+
+/* ===== BOTONES ===== */
+.btn-primary {
+    -fx-background-color: #1a6496;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+    -fx-padding: 8px 0;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #155280;
+}
+
+.btn-secondary {
+    -fx-background-color: #7f8c9a;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+    -fx-padding: 8px 0;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #636f7a;
+}
+
+.btn-search {
+    -fx-background-color: #2e7d52;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+    -fx-padding: 8px 16px;
+}
+
+.btn-search:hover {
+    -fx-background-color: #245f3e;
+}
+
+.btn-danger {
+    -fx-background-color: #c0392b;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 7px;
+    -fx-cursor: hand;
+    -fx-padding: 8px 16px;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #992d22;
+}
+
+/* ===== TABLA ===== */
+.tabla {
+    -fx-background-color: transparent;
+    -fx-border-color: #dce6f0;
+    -fx-border-radius: 6px;
+}
+
+.tabla .column-header {
+    -fx-background-color: #1a3c5e;
+}
+
+.tabla .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.tabla .table-row-cell:odd {
+    -fx-background-color: #f0f5fb;
+}
+
+.tabla .table-row-cell:even {
+    -fx-background-color: white;
+}
+
+.tabla .table-row-cell:selected {
+    -fx-background-color: #b8d4ed;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    -fx-background-color: #1a3c5e;
+}
+
+.footer-text {
+    -fx-text-fill: #7fa8cc;
+    -fx-font-size: 11px;
+}

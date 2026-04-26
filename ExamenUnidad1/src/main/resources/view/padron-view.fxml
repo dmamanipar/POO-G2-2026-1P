@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="pe.edu.upeu.controller.PadronController"
+      spacing="0" styleClass="root-container"
+      stylesheets="@../style.css">
+
+    <!-- HEADER -->
+    <HBox styleClass="header" alignment="CENTER_LEFT" spacing="15">
+        <padding><Insets top="16" right="24" bottom="16" left="24"/></padding>
+        <StackPane styleClass="icon-circle">
+            <Label text="✚" styleClass="icon-label"/>
+        </StackPane>
+        <VBox spacing="2">
+            <Label text="Padrón de Médicos y Personal de Salud"
+                   styleClass="header-title"/>
+            <Label text="Registro y gestión de profesionales adscritos a instituciones de salud"
+                   styleClass="header-subtitle"/>
+        </VBox>
+    </HBox>
+
+    <!-- CUERPO -->
+    <HBox spacing="16" VBox.vgrow="ALWAYS">
+        <padding><Insets top="16" right="20" bottom="16" left="20"/></padding>
+
+        <!-- Formulario -->
+        <VBox styleClass="card" spacing="12" prefWidth="320">
+            <Label text="Nuevo Registro" styleClass="section-title"/>
+
+            <VBox spacing="4">
+                <Label text="Nombre Completo" styleClass="field-label"/>
+                <TextField fx:id="txtNombre" promptText="Ej. Juan Pérez Gómez" styleClass="field-input"/>
+            </VBox>
+            <VBox spacing="4">
+                <Label text="Cédula Profesional" styleClass="field-label"/>
+                <TextField fx:id="txtCedula" promptText="Ej. 1234567" styleClass="field-input"/>
+            </VBox>
+            <VBox spacing="4">
+                <Label text="Especialidad" styleClass="field-label"/>
+                <TextField fx:id="txtEspecialidad" promptText="Ej. Cardiología" styleClass="field-input"/>
+            </VBox>
+            <VBox spacing="4">
+                <Label text="Institución de Adscripción" styleClass="field-label"/>
+                <TextField fx:id="txtInstitucion" promptText="Ej. Hospital Regional" styleClass="field-input"/>
+            </VBox>
+            <VBox spacing="4">
+                <Label text="Tipo de Contrato" styleClass="field-label"/>
+                <ComboBox fx:id="cboContrato" promptText="Seleccionar..."
+                          styleClass="field-input" maxWidth="Infinity"/>
+            </VBox>
+
+            <Label fx:id="lblMensaje" styleClass="msg-label" wrapText="true"/>
+
+            <HBox spacing="10">
+                <Button text="Registrar" onAction="#registrar"
+                        styleClass="btn-primary" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                <Button text="Limpiar" onAction="#limpiar"
+                        styleClass="btn-secondary" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+            </HBox>
+        </VBox>
+
+        <!-- Panel derecho -->
+        <VBox spacing="12" HBox.hgrow="ALWAYS">
+
+            <!-- Búsqueda -->
+            <HBox styleClass="card" spacing="10" alignment="CENTER_LEFT">
+                <Label text="Buscar por especialidad:" styleClass="field-label"/>
+                <TextField fx:id="txtBusqueda" promptText="Ej. Pediatría"
+                           styleClass="field-input" HBox.hgrow="ALWAYS"/>
+                <Button text="🔍 Buscar" onAction="#buscar" styleClass="btn-search"/>
+            </HBox>
+
+            <!-- Tabla -->
+            <VBox styleClass="card" VBox.vgrow="ALWAYS" spacing="10">
+                <Label text="Profesionales Registrados" styleClass="section-title"/>
+                <TableView fx:id="tablaPadron" VBox.vgrow="ALWAYS" styleClass="tabla">
+                    <columns>
+                        <TableColumn fx:id="colNombre"       text="Nombre Completo"  prefWidth="175"/>
+                        <TableColumn fx:id="colCedula"       text="Cédula"           prefWidth="90"/>
+                        <TableColumn fx:id="colEspecialidad" text="Especialidad"     prefWidth="120"/>
+                        <TableColumn fx:id="colInstitucion"  text="Institución"      prefWidth="150"/>
+                        <TableColumn fx:id="colContrato"     text="Contrato"         prefWidth="100"/>
+                    </columns>
+                </TableView>
+                <HBox alignment="CENTER_RIGHT">
+                    <Button text="Eliminar seleccionado" onAction="#eliminar" styleClass="btn-danger"/>
+                </HBox>
+            </VBox>
+        </VBox>
+    </HBox>
+
+    <!-- FOOTER -->
+    <HBox styleClass="footer" alignment="CENTER">
+        <padding><Insets top="8" bottom="8"/></padding>
+        <Label text="UPEU · Programación Orientada a Objetos · 2026" styleClass="footer-text"/>
+    </HBox>
+
+</VBox>
