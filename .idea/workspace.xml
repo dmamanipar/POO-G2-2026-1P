@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f15f5358-5998-4df6-ad2a-d214005ffdc4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/abstractas/ejercicio23.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/abstractas/ejercicio24.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/arraylist/ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/arraylist/ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/clases/ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/clases/ejercicio7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/enums/ejercicio33.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/enums/ejercicio34.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/herencia/ejercicio13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/herencia/ejercicio14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/interfaces/ejercicio28.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/interfaces/ejercicio29.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/internas/inventariosimple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/internas/publicacionred.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/polimorfismo/ejercicio18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upeu/polimorfismo/ejercicio19.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3IsBX0ZJljRMtQZ4FQ3ZgBY4XEk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/programacion/POO-G2-2026-1P"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f15f5358-5998-4df6-ad2a-d214005ffdc4" name="Changes" comment="" />
+      <created>1788543431546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788543431546</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
